@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>Live Video Stream</title>
+    </head>
+    <body>
+        <h1>Live Video Feed</h1>
+        {%for i in camera_ids%}
+            <img src="/video_feed/{{i}}" style="width:640px; height:480px;">
+        {%endfor%}
+    </body>
+</html>
